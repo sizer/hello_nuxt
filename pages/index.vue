@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <p>
-      メガハゲです。
+      メガメタルです。
       オススメのヘビメタを投稿します。
       毎日更新できるよう頑張ります！
     </p>
@@ -10,19 +10,21 @@
 </template>
 
 <script>
-import hello from '../contents/hello.md'
+  import hello from '../contents/hello.md'
 
-export default {
-  components: {},
-  computed: {
-    hello() {
-      return hello
+  export default {
+    components: {},
+    computed: {
+      hello() {
+        return hello
+      }
     }
   }
-}
 </script>
 
 <style>
-.container {
-}
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
 </style>
