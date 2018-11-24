@@ -5,18 +5,18 @@
       オススメのヘビメタを投稿します。
       毎日更新できるよう頑張ります！
     </p>
-    <div v-html="hello" />
+    <div v-html="c20181112" />
   </section>
 </template>
 
 <script>
-  import hello from '../contents/hello.md'
+  import c20181112 from '../contents/20181112.md'
 
   export default {
     components: {},
     computed: {
-      hello() {
-        return hello
+      c20181112() {
+        return c20181112
       }
     }
   }
